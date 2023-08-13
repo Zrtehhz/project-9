@@ -13,3 +13,11 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+
+window.onload = function() {
+    var link = document.createElement("link");
+    link.href = "https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap";
+    link.rel = "stylesheet";
+    document.body.appendChild(link);
+};
