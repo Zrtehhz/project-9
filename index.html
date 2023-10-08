@@ -8,9 +8,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<meta name="description" content="Nina Carducci - Photographe professionnelle en Île-de-France. Découvrez son portfolio et ses services.">
-	<meta name="instagram:title" content="Nina Carducci - Photographe professionnel à Bordeaux">
-	<meta name="instagram:site" content="https://github.com/Zrtehhz/project-9">
 	<meta charset="UTF-8">
 </head>
 <body>
@@ -57,7 +54,7 @@
 </header>
 <section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="nina" Width="375" height="375">
+		<img src="./assets/images/nina.webp" alt="nina" Width="375" height="550">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -66,19 +63,19 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </section>
-<section id="gallery">
+<div id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
-		<div class="gallery">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" alt="Concert" Width="424" height="424"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp" alt="Entreprises" Width="424" height="424"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp" alt="Entreprises" Width="424" height="424"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Mariages" Width="424" height="424"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portrait" Width="424" height="424"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Mariages" Width="424" height="424"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash.webp" alt="Portrait" Width="424" height="424"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" alt="Concert" Width="424" height="424"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Entreprises" Width="424" height="424"/>
+		<div class="gallery" style="display: none">
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" alt="Concert" Width="440px" height="440px"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp" alt="Entreprises" Width="440px" height="440px"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp" alt="Entreprises" Width="440px" height="440px"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Mariages" Width="440px" height="440px"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Portrait" Width="440px" height="440px"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Mariages" Width="440px" height="440px"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash.webp" alt="Portrait" Width="440px" height="440px"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" alt="Concert" Width="440px" height="440px"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Entreprises" Width="440px" height="440px"/>
 		</div>
 	</div>
 	<div class="quote">
@@ -89,7 +86,7 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-</section>
+</div>
 <section id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
@@ -156,6 +153,7 @@
 </footer>
 </body>
 <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
